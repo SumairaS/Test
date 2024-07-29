@@ -5,4 +5,4 @@ FROM alpine:3.6
 RUN apk add --no-cache bash
 
 # Example of a simple command to verify the image is running
-CMD ["echo", "Namaste"]
+CMD ["echo", "Namaste India"]
