@@ -1,5 +1,5 @@
 # Use a specific version of the official Alpine image as base
-FROM alpine:3.5
+FROM alpine:3.1
 
 # Install necessary packages or ccopy files
 RUN apk add --no-cache bash
