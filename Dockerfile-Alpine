@@ -1,8 +1,8 @@
 # Use a specific version of the official Alpine image as base
-FROM alpine:3.1
+FROM alpine:3.15
 
-# Install necessary packages or ccopy files
-RUN apk add --no-cache bash
+# Update the package list and install bash
+RUN apk update && apk add bash
 
 # Example of a simple command to verify the image is running
 CMD ["echo", "Namaste India"]
