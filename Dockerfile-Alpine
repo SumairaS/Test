@@ -1,5 +1,5 @@
 # Use a specific version of the official Alpine image as base
-FROM alpine:3.15
+FROM alpine:3.17
 
 # Update the package list and install bash
 RUN apk update && apk add bash
